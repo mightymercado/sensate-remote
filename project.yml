@@ -1,0 +1,23 @@
+name: SensateRemote
+options:
+  bundleIdPrefix: local.sensate
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+targets:
+  SensateRemote:
+    type: application
+    platform: iOS
+    sources: [SensateRemote]
+    settings:
+      base:
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription: "Controls your Sensate 2 relaxation device over Bluetooth."
+        INFOPLIST_KEY_UIBackgroundModes: "bluetooth-central"
+        INFOPLIST_KEY_UIStatusBarStyle: UIStatusBarStyleDarkContent
+        PRODUCT_BUNDLE_IDENTIFIER: local.sensate.SensateRemote
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic

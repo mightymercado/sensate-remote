@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key><string>local.sensate.sensatectl</string>
+  <key>CFBundleName</key><string>sensatectl</string>
+  <key>NSBluetoothAlwaysUsageDescription</key><string>Controls your Sensate 2 relaxation device over Bluetooth.</string>
+</dict>
+</plist>
